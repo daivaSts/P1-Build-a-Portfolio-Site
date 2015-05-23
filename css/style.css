@@ -1,7 +1,7 @@
 body {
 	font-family: "Lato", sans-serif;
 	color: #3c3937;
-	font-weight: 400;	
+	font-weight: 400;
 }
 
 .title-logo {
@@ -24,18 +24,18 @@ body {
 	font-size: 58px;
 }
 
-.col-md-4 {	
-	margin-bottom: 40px;
+.col-md-4 {
+	margin-bottom: 20px;
 }
 
-.img-responsive{
-	width: 100%;
+.img-responsive {
+	max-width: 100%;
 }
 
 hr {
-    border: none;
-    height: 4px;    
-    background-color: #bcbbbb;  
+	border: none;
+	height: 4px;
+	background-color: #bcbbbb;
 }
 
 h2 {
@@ -44,11 +44,24 @@ h2 {
 }
 
 a {
-	color: #3c3937;
+	margin: 1.5em 0 1.5em 0;
 }
 
 header {
 	font-size: 30px;
+	margin: 20px 0 0 4px;
+}
+
+@media screen and (max-width: 400px) {
+	.title-super {
+		font-size: 48px;
+	}
+
+	.title-logo {
 	margin-top: 20px;
-	margin-left: 4px;
+	border-image-width: 50%;
+	max-width: 60px;
+	max-height: 60px;
+	border-radius: 50px;
+	}
 }
